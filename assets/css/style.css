@@ -1,0 +1,154 @@
+.header-area {
+    padding: 10px 0;
+}
+.logo-area {
+    margin-top: -6px;
+}
+.menu-area {
+    padding-top: 9px;
+    text-align: right;
+    position: relative;
+}
+.menu-area li {
+    list-style: none;
+    display: inline-block;
+}
+.menu-area a {
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    transition: .6s;
+    position: relative;
+}
+.menu-area a:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    display: block;
+    position: absolute;
+    background-color: red;
+    transition: .6s;
+}
+.menu-area a:hover:after {
+    width: 100%;
+}
+.btn {
+    border: 1px solid rgb(211, 8, 171);
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .6s;
+}
+.btn:hover {
+    background: rgb(4, 190, 207);
+    color: #fff;
+}
+.btn a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* banner area start css */
+.banner-area {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: -70px;
+    display: block;
+}
+.content h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+
+/* about me start css  */
+.service-area {
+    background-color: aqua;
+}
+.title h2 {
+    position: relative;
+    padding-bottom: 10px;
+}
+.title h2::after {
+    content: '';
+    width: 108px;
+    height: 2px;
+    left: 45%;
+    bottom: 0;
+    display: block;
+    background: tomato;
+    position: absolute;
+    justify-content: center;
+}
+.about-me img {
+    width: 100%;
+}
+.icon {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    background: tomato;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.list i span {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.button {
+    margin-top: 35px;
+}
+.button a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px 20px;
+    background: tomato;
+}
+
+/* contact css  */
+input {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px 40px;
+    background-color: tomato;
+    margin-top: 30px;
+
+}
+ 
+/* foootwer css  */
+.footer-area {
+    background-color: rgb(124, 136, 136);
+    padding: 20px 0;
+}
+.footer-area p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
